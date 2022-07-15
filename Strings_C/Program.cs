@@ -115,12 +115,10 @@ using System.Text;
 
         List<int> testScores = new List<int>() { 94, 64, 84, 94, 88 };
 
-        Console.WriteLine(testScores[0]);
-
         foreach (int score in testScores)
         {
             if (score > 85)
-                Console.WriteLine("score passed: " + testScores[score]);
+                Console.WriteLine("score passed: " + score);
         }
 
     }
